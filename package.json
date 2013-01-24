@@ -1,0 +1,20 @@
+{
+  "name": "voxel-script-gun",
+  "description": "player editable scriping UI for first person voxel editing",
+  "version": "0.0.1",
+  "repository": {
+    "type":"git",
+    "url": "git@github.com:maxogden/voxel-script-gun.git"
+  },
+  "dependencies": {
+    "voxel-engine": "0.3.5",
+    "inherits": "1.0.0"
+  },
+  "devDependencies": {
+    "browservefy": "0.0.1",
+    "painterly-textures": "git://github.com/maxogden/painterly-textures.git#relative"
+  },
+  "scripts": {
+    "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy demo.js 8080 -- -d"
+  }
+}
