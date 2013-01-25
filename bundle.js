@@ -79793,6 +79793,7 @@ function ScriptGun(game, opts) {
   this.setMousedown(this.editor.getValue())
   
   this.editor.on('change', function() {
+    this.game.controls.emit('command', 'moveLeft', false) // i dont know why this is needed but it is
     var functionBody = self.editor.getValue()
     self.emit('change', functionBody)
     game.removeListener('mousedown', self.mousedown)
