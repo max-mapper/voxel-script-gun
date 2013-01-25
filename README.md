@@ -52,7 +52,7 @@ npm start
 
 Then point your browser to [http://localhost:8080](http://localhost:8080) and have fun!
 
-If you get stuck then look at the [readme for voxel-hello-world](http://github.com/maxogdne/voxel-hello-world)
+If you get stuck then look at the [readme for voxel-hello-world](http://github.com/maxogden/voxel-hello-world)
 
 ## license
 
