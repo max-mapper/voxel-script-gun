@@ -33,6 +33,9 @@
         bottom: 0;
         right: 0;
       }
+      #instructions {
+        position: absolute; top: 20px; right: 20px; width: 25%;
+      }
       #stats { bottom: 0px; right: 0px; }
       .bar-tab { right: 33% !important; left: 33% !important; }
       .logo {position: absolute; top: 5px; left: 5px; }
@@ -42,6 +45,9 @@
   </head>
   <body>
     <img class="logo" src="logo-white.png">
+    <div id="instructions">
+      edit the floating code to determine what happens when you click on a voxel. <code>position</code> is the x/y/z of the point that you clicked on. here are <a target="_blank" href="https://gist.github.com/4629616">some scripts</a> you can try out. more info about the game API can be found at the <a href="https://github.com/maxogden/voxel-engine#interacting-with-the-voxel-world">voxel-engine</a> project page.
+    </div>
     <div id="container"></div>
     <div id="crosshair"></div>
     <div id="editor"></div>

@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "browservefy": "0.0.1",
-    "painterly-textures": "git://github.com/maxogden/painterly-textures.git#relative"
+    "painterly-textures": "git://github.com/maxogden/painterly-textures.git#relative",
+    "voxel-highlight": "0.0.1"
   },
   "scripts": {
     "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy demo.js 8080 -- -d"

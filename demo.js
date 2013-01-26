@@ -1,11 +1,14 @@
 var createGame = require('voxel-engine')
 var scriptGun = require('./')
+var highlight = require('voxel-highlight')
 
 var container = document.querySelector('#container')
 
 var game = createGame({
   startingPosition: [0, 1000, 0]
 })
+
+highlight(game)
 
 window.game = game // for debugging
 game.currentMaterial = 1
